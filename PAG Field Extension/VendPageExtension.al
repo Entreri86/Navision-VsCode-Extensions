@@ -1,8 +1,7 @@
-pageextension 50120 "Cust Card Bank Account" extends "Customer Card"
+pageextension 50121 "Vend Card Bank Account" extends "Vendor Card"
 {
     layout
     {
-        // Add changes to page layout here
         addlast(Payments)
         {
            field ("Company Bank Account";"Company Bank Account")
@@ -16,7 +15,5 @@ pageextension 50120 "Cust Card Bank Account" extends "Customer Card"
     
     actions
     {
-        // Add changes to page actions here
-        
     }
 }
